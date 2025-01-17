@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "company-house-leads"
+version = "0.1.0"
+description = ""
+authors = ["Connor Skelland <34070858+Connor56@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+requests = "^2.32.3"
+python-dotenv = "^1.0.1"
+pandas = "^2.2.3"
+pydantic = "^2.10.5"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
